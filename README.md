@@ -6,10 +6,10 @@ Execution Steps For Demo
 1) Once Redis and RedisSearch is  installed , modify redis_server value in each script with your redis server hostname/ip address.
    
 2) Install below packages using PIP
-    redis
-    redissearch
-    six
-    mplotb
+    - redis
+    - redissearch
+    - six
+    - mplotb
 3) Run Import_Insert_Redis.py to load dataset into redis.
 4) Run Scan_Redis.py to scan all hashes and look for number of parking lots at address 5100 E WINNEMUCCA BLVD.
    This script also stores execution time. It can be plot latter.
